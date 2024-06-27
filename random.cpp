@@ -9,4 +9,6 @@ int main()
 
     int num = std::rand();
     std::cout << num << '\n';
+
+    int randNum = std::rand() & 6 + 1; // random numbers 1 through 6
 }
